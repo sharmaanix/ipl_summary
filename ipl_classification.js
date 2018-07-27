@@ -19,7 +19,6 @@ var ft_host_cities = freqTable();
 var ft_match_won = freqTable();
 var ft_toss_decision = freqTable();
 var index = 0;
-var write_file =fs.createWriteStream('ipl_output.txt');
 
 
 var inputFile='Match.csv';
